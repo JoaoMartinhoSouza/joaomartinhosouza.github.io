@@ -38,6 +38,18 @@ body.not-found h1 {
     margin-top: 1.5em;
 }
 
+a,
+a:active
+a:hover {
+    color: #0645ad;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
 h3 {
     font-size: 1.4em;
     margin-top: 1.5em;
@@ -111,4 +123,44 @@ aside {
 .email {
     overflow-wrap: normal;
     word-break: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #2b2b2d;
+        color: #e0e0e0;
+    }
+
+    header {
+        border-bottom-color: #545458;
+    }
+
+    footer {
+        border-top-color: #545458;
+        color: #b0b0b3;
+    }
+
+    hr {
+        border-top-color: #545458;
+    }
+    
+    a,
+    a:active,
+    a:hover {
+        color: #70a7ff;
+    }
+
+    a:visited {
+        color: #b56cff;
+    }
+
+    code {
+        background-color: #3b3b3d;
+        color: #e0e0e0;
+    }
+
+    aside {
+        border-left-color: #545458;
+        color: #b0b0b3;
+    }
 }
