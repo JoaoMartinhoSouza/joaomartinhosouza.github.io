@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://joaomartinhosouza.github.io/sitemap.xml
+Sitemap: https://joaomartinho.net.br/sitemap.xml
